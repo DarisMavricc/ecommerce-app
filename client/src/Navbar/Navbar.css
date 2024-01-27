@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.navbar-items {
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-items h1 {
+    float: left;
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+.navbar-items ul {
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-items li{
+    cursor: pointer;
+    padding: 35px;
+    font-size: 20px;
+}
+
+
+.newproduct {
+    position: relative;
+    margin-right: 130px;
+    margin-left: -10px;
+}
+
+.newproduct button{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 150px;
+    padding: 20px;
+    cursor: pointer;
+    border: 0;
+    background-color: #1AA7EC;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}

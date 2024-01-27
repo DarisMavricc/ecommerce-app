@@ -1,0 +1,124 @@
+.cart h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.cart-items {
+    margin-top: 25px;
+    display: flex;
+}
+
+.cart .cart-items .products {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 25px;
+    background-color: white;
+    display: block;
+    width: 1100px;
+    padding: 25px;
+}
+
+.cart .cart-items .products .items {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.products .item {
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.products .items .item-name {
+    width: 700px;
+}
+
+.products .items .item-price {
+    width: 150px;
+}
+
+.products .item .image-name {
+    width: 700px;
+    display: flex;
+}
+
+.image-name p {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.products .item .price {
+    width: 150px;
+    margin: auto 5px;
+    font-size: 20px;
+}
+
+.products .item .total {
+    width: 100px;
+    display: flex;
+    margin: auto -5px;
+    font-size: 20px;
+}
+
+
+.products .item button {
+    margin-left: 50px;
+    border: 0;
+    background-color: white;
+    font-size: 50px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.products .item img {
+    height: 150px;
+    width: 175px;
+}
+
+
+.cart .cart-items .finalPrice {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 25px;
+    background-color: white;
+    width: 350px ;
+    height: 250px;
+    padding: 25px;
+    display: block;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+
+.cart .cart-items .finalPrice .subtotal {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.cart .cart-items .finalPrice .subtotal {
+    justify-content: space-between;
+}
+
+.cart .cart-items .finalPrice .Tax {
+    margin-top: 25px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.cart .cart-items .finalPrice .Tax {
+    justify-content: space-between;
+}
+
+.cart .cart-items .finalPrice .final {
+    display: flex;
+    border-bottom: 1px solid black;
+    font-size: 50px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+
+
+
+
