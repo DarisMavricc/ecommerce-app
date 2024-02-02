@@ -62,7 +62,7 @@ export const Login = () => {
             <Navbar />
             <div className="login">
                 <h1>Sign In</h1>
-                {err ? <p style={{color:"red"}} >{err}</p> : <p></p>}
+                {err ? <p class="error">{err}</p> : <p></p>}
                 <label for="email">Email</label>
                 <input type="email" name="email" onChange={formik.handleChange}/>
                 {formik.errors.email && formik.touched.email ? (
@@ -76,7 +76,7 @@ export const Login = () => {
                 <button onClick={formik.handleSubmit}>LOG IN</button>
                 <div className="other">
                     <p>Forgot Password?</p>
-                    <p>Don't have an account</p>
+                    <a href="/register"><p>Don't have an account?</p></a>
                 </div>
             </div>
         </div>

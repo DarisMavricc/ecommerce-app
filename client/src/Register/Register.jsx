@@ -85,7 +85,7 @@ export const Register = () => {
                 <p className="error">{formik.errors.password}</p>
                 ) : null}
                 <div className="other">
-                    <p>Already have an account?</p>
+                    <a href="/Login"><p>Already have an account?</p></a>
                 </div>
                 <button type="button" onClick={formik.handleSubmit}>REGISTER</button>
             </div>
