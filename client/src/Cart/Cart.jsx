@@ -1,6 +1,5 @@
 import "./Cart.css"
 import { Navbar } from "../Navbar/Navbar"
-import icon from "./1699920401306slika2.jpg"
 import { useContext, useEffect } from "react";
 import { cartContext } from "../Context/CartContext";
 import { useState } from "react";
