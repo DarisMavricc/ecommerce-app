@@ -14,7 +14,7 @@ export const Logout = () => {
             localStorage.clear();
         }
         setCurrentUser(null)
-        navigate('/Home');
+        navigate('/Login');
     },[]);
     return (
         <div className="logout">
