@@ -30,7 +30,7 @@ export const Products = () => {
                         <img src={"../images/" + product?.image} alt="" />
                         <div className="product-info">
                             <h1>{product?.name}</h1>
-                            <p style={{color:'red'}}>{`${product?.price}`}</p>
+                            <p style={{color:'red'}}>{`${product?.price}$`}</p>
                             <p class='text'>{product?.bio}</p>
                             <div className="product-buttons">
                                 <button id='button1' onClick={() => addProduct(product)}>Buy Product</button>
